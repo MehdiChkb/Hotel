@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: O;
+}
+body {
+    font-family: 'Afterglow';
+    
+  background-color: #fff;
+  height: auto;
+  position: relative; 
+  
+  z-index: -4;
+  background-image: url(../_img/bg/Background_V7gold.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 100%;
+}
+a{
+    text-decoration: none;
+    color: #1a6518;
+}
+.panelchambre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-column-gap: 50px;
+    grid-row-gap: 100px;
+    
+}
+.blockpage{
+    
+    width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    margin-top: 130px;
+    margin-bottom: 3%;
+  }
+
+.titlecontainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px
+}
+.panelviewalt{
+    width: 100%;
+    height: 574px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.img2chamber{
+    width: 100%;
+    height: 574px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+.img2chamber:hover{
+    opacity: 0;
+}
+
+
+
+.paneltitle{
+    margin: 25px 0 0;
+    font-size: 1.1875em;
+    font-style: italic;
+}
+.paneltext{
+    
+    height: auto;
+    padding-top: 30px;
+    margin: 0;
+    color: #222426;
+    
+}
+.icon{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.icon>i{
+    margin: 10px;
+    color: #297e5b;
+}
+.paneltitle >a {
+    border-bottom: solid 1px #105646;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+}
+.paneltext >a   {
+    font-weight: lighter;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.panelprice{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.panelfooter{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.linkbtn{
+    
+    border: solid 1px #105646;
+    padding: 15px 10px;
+    text-align: center;
+    transition: 0.2s;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+.linkbtn:hover{
+    color: #fff;
+    background-color: #105646;
+}
+.footer{
+    margin-top: 200px;
+}
+.titlecham{
+    font-family: 'Afterglow';
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: #c19d1e;
+}
+.titlechambre{
+    font-family: 'Afterglow';   
+    border-bottom: solid 1px #105646;
+    letter-spacing: 12px;
+    font-weight: lighter;
+    font-size: 35px;
+    font-style: oblique;
+    color: #c19d1e;
+}
+
+.panelfooter-pricevalue{
+    font-size: 1.5em;
+}
+.panelfooter-pricelabel{
+    font-size: 1rem;
+}
+
+@media (max-width: 700px){
+    body{
+      background-size: 110%;
+    }
+    .blockpage{
+      width: 20rem;
+    }
+    .panelchambre{
+      grid-template-columns: 1fr;
+    }
+    .titlecontainer{
+      text-align: center;
+    }
+  }

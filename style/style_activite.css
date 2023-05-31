@@ -1,0 +1,245 @@
+@media only screen and (min-width: 1000px) {
+body{
+    margin: 0;
+    background-image: url(../_img/bg/Background_V7gold.png);
+    background-repeat: repeat;
+    background-size: 100% auto;
+}
+h1{
+    text-align: center;
+    margin-top: 15%;
+    font-size: 40px;
+    color: #c19d1e;
+    text-decoration: underline;
+    font-weight: lighter;
+    font-style: oblique;
+
+}
+.activites {
+    margin-top: 5%;
+}
+
+.a_card {
+    margin-bottom: 5%;
+    border: 0px solid transparent;
+    box-sizing: border-box;
+    background-position: 20% 15%;
+    filter: brightness(0.9);
+    transition: all ease-in-out 0.2s;
+}
+
+.a_card:hover {
+    filter: brightness(1);
+    transition: all ease-in-out 0.2s;
+
+}
+
+.a_card_text {
+    padding-top: 1%;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+
+.a_card_but {
+    float: right;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: all ease-in-out 0.2s;
+    margin-top: -8%;
+    margin-right: 8%;
+    box-sizing: content-box;
+    border: 1px solid #c19d1e;
+    background-color: #fff;
+}
+
+.a_card_info {
+    display: none;
+    text-align: center;
+    border: 1px solid #c19d1e;
+    border-top: 1px solid transparent;
+    font-family: afterglow;
+    color: #1a6518;
+    letter-spacing: 1;
+}
+
+.a_card_header {
+    min-height: 150px;
+}
+
+.a_card_body {
+    height: auto;
+    padding: 0 10%;
+    display: block;
+    margin-bottom: 1%;
+}
+
+.a_card_info.active{
+    display: inherit;
+
+}
+
+.but {
+    width: 50%;
+}
+
+#a_parata {
+    background-image: url('../_img/img_activite/tour-parata.jpg');
+    background-position: 0px 700px;
+}
+
+#a_piscine {
+    background-image: url('../_img/img_activite/piscine_a.jpg');
+    background-position: 0px 800px;
+    background-size: cover;
+}
+
+#a_spa {
+    background-image: url('../_img/img_activite/spa.jpg');
+    background-position: 0px 350px;
+    background-size: cover;
+}
+
+#a_plongee {
+    background-image: url('../_img/img_activite/plongee.jpg');
+    background-position: 0px 550px;
+    background-size: cover;
+}
+.blockpage{
+
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 100%;
+
+}
+}
+/* Responsive à partir de 500px de large -----------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 500px) {
+    body{
+        margin: 0;
+        background-image: url(../_img/bg/Background_V7gold.png);
+        background-repeat: repeat;
+        background-size: 100% auto;
+    }
+    h1{
+        text-align: center;
+        margin-top: 15%;
+        font-size: 40px;
+        color: #c19d1e;
+        text-decoration: underline;
+        font-weight: lighter;
+        font-style: oblique;
+    
+    }
+    .activites {
+        margin-top: 5%;
+    }
+    
+    .a_card {
+        margin-bottom: 5%;
+        border: 0px solid transparent;
+        box-sizing: border-box;
+        background-position: 20% 15%;
+        filter: brightness(0.9);
+        transition: all ease-in-out 0.2s;
+    }
+    
+    .a_card:hover {
+        filter: brightness(1);
+        transition: all ease-in-out 0.2s;
+    
+    }
+    
+    .a_card_text {
+        padding-top: 1%;
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+    }
+    
+    .a_card_but {
+        float: right;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        opacity: 0.9;
+        transition: all ease-in-out 0.2s;
+        margin-top: -13%;
+        margin-right: 8%;
+        box-sizing: content-box;
+        border: 1px solid #c19d1e;
+        background-color: #fff;
+    }
+    
+    .a_card_info {
+        display: none;
+        text-align: center;
+        border: 1px solid #c19d1e;
+        border-top: 1px solid transparent;
+        font-family: afterglow;
+        color: #1a6518;
+        letter-spacing: 1;
+    }
+    
+    .a_card_header {
+        min-height: 150px;
+    }
+    
+    .a_card_body {
+        height: auto;
+        padding: 0 10%;
+        display: block;
+        margin-bottom: 1%;
+    }
+    
+    .a_card_info.active{
+        display: inherit;
+    
+    }
+    
+    .but {
+        width: 50%;
+    }
+    
+    #a_parata {
+        background-image: url('../_img/img_activite/tour-parata.jpg');
+        background-position: 0px 700px;
+    }
+    
+    #a_piscine {
+        background-image: url('../_img/img_activite/piscine_a.jpg');
+        background-position: 0px 800px;
+        background-size: cover;
+    }
+    
+    #a_spa {
+        background-image: url('../_img/img_activite/spa.jpg');
+        background-position: 0px 350px;
+        background-size: cover;
+    }
+    
+    #a_plongee {
+        background-image: url('../_img/img_activite/plongee.jpg');
+        background-position: 0px 550px;
+        background-size: cover;
+    }
+    .blockpage{
+    
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        height: 100%;
+    
+    }
+}

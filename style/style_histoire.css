@@ -1,0 +1,338 @@
+@import url("https://www.dafontfree.net/brush-script-mt-italic/f116652.htm");
+.but_up {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all ease-in-out 0.2s;
+}
+.but_up:hover {
+    opacity: 1;
+    transition: all ease-in-out 0.2s;
+}
+.icone {
+    width: 50px;
+}
+
+.h_box {
+    box-sizing: border-box;
+    box-shadow: 4px 4px 10px 1px rgba(8, 50, 16, 0.5) ;
+    width: 100%;
+    margin-top: 8%;
+    overflow: hidden;
+    background-color: #fff;
+    margin-bottom: 1%; 
+}
+.h_box p {
+    color: #1a6518
+}
+.h_box h1{
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #c19d1e;
+    font-family: Brush Script MT!important;
+}
+.h_menu{
+    font-size: 20px;
+    text-align: center;
+}.h_menu a{
+    color: #c19d1e;
+    text-decoration: underline;
+    transition: all ease-in-out 0.2s;
+}
+.h_menu a:hover {
+    transition: all ease-in-out 0.2s;
+    color: #1a6518;
+}
+
+.header {
+    background-image: url('../_img/corse_matin.jpg');
+    width: 100%;
+    height: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header_element {
+    display: flex;
+    justify-content: center;
+
+}
+.header p{
+    height: auto;
+    text-align: center;
+    font-size: 212%;
+    color: #1a6518;
+    padding-top: 17%;
+}
+#bonaparte {
+    width: 100%;
+    height: auto;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: #c19d1e solid 4px;    
+    -moz-border-radius : 25px 0px 25px 0px;
+    -webkit-border-radius : 25px 0px 25px 0px;
+    border-radius : 25px 0px 25px 0px;
+}
+.h_fibonacci img{
+    width: 400px;
+    height: auto;
+    float: right;
+    margin-top: -10%;
+    margin-right: -41px;
+}
+.h_fibonacci p{
+    text-align: justif;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 10%;
+    margin-bottom: 70px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.h_bonaparte p{
+    text-align: justify;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-top: 150px;
+}
+.h_bonaparte img {
+    width: 350px;
+    height: auto;
+    margin-left: -37px;
+    float: left;
+    margin-top: -8%;
+}
+.h_ajaccio p {
+    text-align: justify;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 170px;
+    margin-left: 20px;
+}
+.h_ajaccio img {
+    width: 300px;
+    height: auto;
+    float: right;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+.h_piscine p{
+    text-align: justify;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-top: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.h_piscine img {
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+    float: left;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+.restaurant {
+    margin-top: 80px;
+    margin-left: 3%;
+}
+.r_box {
+    box-sizing: border-box;
+    border: 3px #c19d1e solid;
+    margin: 10%;
+    margin-bottom: -50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.r_box h1{
+    text-decoration: underline;
+}
+.img_restau{
+    box-sizing: border-box;
+    border: solid 4px #c19d1e;
+    border-radius: 360px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 27%;
+    justify-content: center;
+    display: flex;
+    width: 40%;
+    background-image: url(../_img/selection_photo/cuisine.jpg);
+    height: 231px;
+    background-size: 180% auto;
+    background-position: center;
+    margin: auto;
+    padding: 0px 112px;
+}
+.restaurant img{
+    height: 250px;
+}
+.r_infos {
+    color: #1a6518;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: relative;
+    text-align: center;
+}
+.r_infos h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-right: 5%;
+}
+.r_infos p{
+    font-size: 22px;
+    text-align: center;
+    margin-right: 5%;
+
+}
+.but_restaurant {
+    font-family: 'afterglow';
+    display: block;
+    margin: 150px auto;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #c19d1e;
+    padding: 25px 80px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #c19d1e;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all ease-in-out 0.25s;
+    box-shadow: 4px 4px #c19d1e;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    justify-content: center;
+}
+.but_restaurant:hover {
+    transition: all ease-in-out 0.25s;
+    background: #297e5b;
+    box-shadow: 4px 4px #1a6518;
+}
+
+
+.pos_carrousel {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 7%;
+    min-height: 59vh;
+    background-size: cover;
+    border: #c19d1e solid 3px;
+    padding: 10px;
+}
+.pos_carrousel h1{
+    text-decoration: underline;
+}
+.carrousel{
+    width: 67%;
+    height: auto;
+    border: solid #fff;
+    box-shadow: 4px 4px 10px 1px rgba(8, 50, 16, 0.5) ;
+    position: relative;
+    overflow: hidden;
+    margin:auto;
+    margin-top: 2%;
+}
+.container_carrousel {
+    width: 800px;
+    height: 400px;
+}
+.photo {
+    width: 800px;
+    height: 400px;
+    margin: 0;
+    display: inline-block;
+    background-size: cover;
+}
+.bouton {
+    position: absolute;
+    width: 70px;
+    cursor: pointer;
+    top: 150px;
+}
+#gauche {
+    left: 0;
+    opacity: 0.4;
+    transition: all 0.3s ease;
+}
+#droite {
+    right: 0;
+    opacity: 0.4;
+    transition: all 0.3s ease;
+}
+#gauche:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+#droite:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+
+.but_chambre {
+    font-family: 'afterglow';
+    display: flex;
+    margin: 150px auto;
+    font-size: 30px;
+    margin-top: 50px;
+    padding-bottom: -10px;
+    font-weight: lighter;
+    color: #fff;
+    padding: 25px 80px;
+    background: #c19d1e;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 6px #ab8d21;
+    transition: all ease-in-out 0.25s;
+}
+.but_chambre:hover {
+    transition: all ease-in-out 0.25s;
+    background: #297e5b;
+    box-shadow: 0 4px #1a6518;
+    top: -198px;
+}
+.but_chambre:active {
+    background: #297e5b;
+    box-shadow: 0 0;
+    top: -194px;
+}
+.logo_haut{
+    width: 75%;
+    margin-top: 10%;
+    margin-bottom: 6%;
+    margin-left: 14%;
+    margin-right: auto;
+}
+.text_haut{
+    width: 80%;
+    margin-top: 10%;
+    margin-bottom: 6%;
+    margin-right: 16%;
+    margin-left: 11%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: #c19d1e solid 4px;    
+    -moz-border-radius : 0px 25px 0px 25px;
+    -webkit-border-radius : 0px 25px 0px 25px;
+    border-radius : 0px 25px 0px 25px;
+}

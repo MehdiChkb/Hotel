@@ -1,0 +1,115 @@
+@media only screen and (min-width: 1000px) {
+.footer {
+    box-sizing: border-box;
+    margin: auto;
+    padding-block-start: 3%;
+}
+.f_pos {
+    width: 100%;
+}
+.f_resaux {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+.f_resaux img{
+    width: 30px;
+    height: auto;
+    opacity: 0.5;
+    transition: all ease-in-out 0.2s;
+}
+.twitter {
+    padding-right: 50px;
+}
+.insta {
+    padding-right: 50px;
+}
+.f_resaux img:hover{
+    opacity: 1;
+    transition: all ease-in-out 0.2s;
+}
+.f_text {
+    text-align: center;
+}
+.f_text p{
+    color: #fff;
+}
+.f_nav {
+    border-top: #fff solid 1px;
+    font-size: 17px;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+.f_nav a {
+    padding-right: 3%;
+    padding-left: 3%;
+    color: #fff;
+    opacity: 0.7;
+    text-decoration: none;
+    transition: all ease-in-out 0.2s;
+}
+.f_nav a:hover {
+    transition: all ease-in-out 0.2s;
+    opacity: 1;
+}
+}
+/* Responsive à partir de 500px de large -----------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 500px) {
+    .footer {
+        box-sizing: border-box;
+        margin: auto;
+        padding-block-start: 42%;
+    }
+    .f_pos {
+        width: 100%;
+    }
+    .f_resaux {
+        display: flex;
+        padding: 0;
+        justify-content: center;
+    }
+    .f_resaux img{
+        width: 30px;
+        height: auto;
+        opacity: 0.5;
+        transition: all ease-in-out 0.2s;
+    }
+    .twitter {
+        padding-right: 50px;
+    }
+    .insta {
+        padding-right: 50px;
+    }
+    .f_resaux img:hover{
+        opacity: 1;
+        transition: all ease-in-out 0.2s;
+    }
+    .f_text {
+        text-align: center;
+    }
+    .f_text p{
+        color: #fff;
+    }
+    .f_nav {
+        border-top: #fff solid 1px;
+        font-size: 17px;
+        margin-top: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    
+    }
+    .f_nav a {
+        padding-right: 3%;
+        padding-left: 3%;
+        color: #fff;
+        opacity: 0.7;
+        text-decoration: none;
+        transition: all ease-in-out 0.2s;
+    }
+    .f_nav a:hover {
+        transition: all ease-in-out 0.2s;
+        opacity: 1;
+    }
+    }
